@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sweet Life</title>
+  <link rel="stylesheet" href="./necolas-normalize.css-be14934/normalize.css">
+  <link rel="stylesheet" href="./css/style.css">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&family=Poppins:wght@400;500&display=swap"
+    rel="stylesheet">
+</head>
+
+<body>
+<header class="glass-header">
+  <h1>Sweet Life</h1>
+  <!-- Переключатель темы -->
+<div class="theme-toggle" id="themeToggle">
+  <span>🌙</span>
+</div>
+
+
+  <!-- Кнопка-бургер -->
+  <div class="burger" id="burger">
+    <span></span>
+    <span></span>
+    <span></span>
+  </div>
+
+  <!-- Навигация -->
+  <nav id="nav-menu">
+    <a href="index.html">Main</a>
+    <a href="menu.html">Menu</a>
+    <a href="about.html">About us</a>
+    <a href="contacts.html">Contacts</a>
+  </nav>
+</header>
+
+
+  <main>
+    <!-- Who Are We Section -->
+    <section class="WhoAreWe" id="main">
+      <div class="text-us">
+        <h3>Who Are We?</h3>
+        <p>At Sweet Life Café, we believe coffee is more than just a drink — it’s a moment, a feeling, a story in every
+          cup. Our baristas craft each brew with passion, using only hand-selected beans roasted to perfection. From the
+          very first sip, you’ll taste our dedication to quality and our love for the art of coffee. Whether you come
+          for a quick espresso, a creamy latte, or to unwind with friends, Sweet Life is your cozy escape from the
+          ordinary. ☕ Because life tastes better with a little sweetness.</p>
+      </div>
+
+      <!-- Small Cards -->
+      <div class="cards-container">
+        <div class="small-card">
+          <h4>Our Beans</h4>
+          <p>We source our coffee beans from the finest farms around the world. Each batch is carefully roasted to bring
+            out unique flavors and aromas, ensuring every cup is a perfect experience.</p>
+        </div>
+        <div class="small-card">
+          <h4>Community Love</h4>
+          <p>We’re more than a café — we’re a place where friends meet, stories are shared, and memories are made. Join
+            our Sweet Life community and feel at home.</p>
+        </div>
+        <div class="small-card">
+          <h4>Cozy Atmosphere</h4>
+          <p>Sweet Life is designed to be your retreat from the hustle and bustle. Soft lighting, comfortable seating,
+            and a warm vibe make every visit a relaxing escape.</p>
+        </div>
+      </div>
+    </section>
+    <!-- Tasty Principles Section -->
+    <section class="Tasty-principes">
+      <div class="text-tasty">
+        <h3>Our Tasty Principles</h3>
+        <p>At Sweet Life Café, our tasty principles are the heart of everything we do. We believe that great coffee
+          starts with quality ingredients, expert craftsmanship, and a passion for flavor. Here’s what guides us:</p>
+        <ul>
+          <li><strong>Quality First:</strong> We source only the finest beans and freshest ingredients to ensure every
+            cup
+            is exceptional.</li>
+          <li><strong>Craftsmanship:</strong> Our skilled baristas are dedicated to perfecting the art of coffee-making,
+            from grind to brew.</li>
+          <li><strong>Flavor Exploration:</strong> We love experimenting with new blends, roasts, and brewing methods to
+            delight your taste buds.</li>
+          <li><strong>Customer Experience:</strong> Your satisfaction is our priority. We strive to create a welcoming
+            atmosphere where you can relax and enjoy your coffee.</li>
+        </ul>
+        <p>At Sweet Life Café, we’re committed to delivering a coffee experience that’s not just tasty, but truly
+          unforgettable. Join us and savor the difference!</p>
+      </div>
+    </section>
+    <!-- Slider Menu Section -->
+    <section class="Menu-slider" id="menu">
+      <h3>Our Menu</h3>
+      <div class="flex-for-menu-slider">
+          <div class="menu">
+            <div class="card-txt">
+              <p>Latte — $4.50
+                Smooth and creamy coffee blended with steamed milk and a soft layer of foam.
+                A warm, gentle flavor that feels like a hug in a cup.</p>
+            </div>
+            <div class="card-txt">
+              <p>Cappuccino — $4.00
+                Bold espresso balanced with velvety milk foam.
+                Perfect harmony of rich flavor and airy texture.</p>
+            </div>
+            <div class="card-txt">
+              <p>Americano — $3.50
+                Espresso diluted with hot water for a clean, deep taste.
+                Strong, simple, and timeless..</p>
+            </div>
+            <div class="card-txt">
+              <p>Espresso — $2.50
+                Pure, concentrated coffee with intense aroma and crema.
+                For those who like their coffee strong and straightforward.</p>
+            </div>
+            <div class="card-txt">
+              <p>Doppio — $3.00
+                Double shot of espresso.
+                Twice the strength, twice the energy, zero nonsense.</p>
+            </div>
+          </div>
+          <div class="wrapper">
+            <h3>Delicious!</h3>
+            <input type="radio" name="point" id="slide1" checked>
+            <input type="radio" name="point" id="slide2">
+            <input type="radio" name="point" id="slide3">
+            <input type="radio" name="point" id="slide4">
+            <input type="radio" name="point" id="slide5">
+            <div class="slider">
+              <div class="slides slide1">
+                <img src="./images/Cappuccino.webp" alt="Cappuccino">
+              </div>
+              <div class="slides slide2">
+                <img src="./images/Latte.webp" alt="latte">
+              </div>
+              <div class="slides slide3">
+                <img src="./images/Americano.webp" alt="Americano">
+              </div>
+              <div class="slides slide4">
+                <img src="./images/Espresso.webp" alt="Espresso">
+              </div>
+              <div class="slides slide5">
+                <img src="./images/Doppio.webp" alt="Doppio">
+              </div>
+            </div>
+            <div class="controls">
+              <label for="slide1"></label>
+              <label for="slide2"></label>
+              <label for="slide3"></label>
+              <label for="slide4"></label>
+              <label for="slide5"></label>
+            </div>
+          </div>
+        </div>
+    </section>
+    <footer class="glass-footer-floating">
+      <!-- ✨ Неоновые частицы внутри футера -->
+      <div class="neon-particles"></div>
+    
+      <!-- Футер -->
+      <div class="footer-inner">
+        <h2>Sweet Life</h2>
+        <p>Bringing sweetness to your daily brew ☕</p>
+    
+        <div class="footer-links">
+          <a href="#main">Home</a>
+          <a href="#menu">Menu</a>
+          <a href="about.html">About us</a>
+          <a href="contacts.html">Contacts</a>
+        </div>
+    
+        <div class="footer-socials">
+          <a href="#"><img src="./images/images.jpg" alt="Instagram"></a>
+          <a href="#"><img src="./images/Facebook.webp" alt="Facebook"></a>
+          <a href="#"><img src="./images/Twitter.webp" alt="Twitter"></a>
+        </div>
+      </div>
+
+      <p class="footer-copy">© 2025 Sweet Life Café. All rights reserved.</p>
+    </footer>
+
+    </main>
+</body>
+<script src="./script.js"></script>
+</html>
